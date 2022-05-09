@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from './contact.module.css'
 
-export default function Contact() {
+const Contact = () => {
   return (
-    <div>Contact</div>
+    <section id='contact'>Contact</section>
   )
 }
+
+export default Contact

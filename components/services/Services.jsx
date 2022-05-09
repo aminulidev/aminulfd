@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from './services.module.css'
 
-export default function Services() {
+const Services = () => {
   return (
-    <div>Services</div>
+    <section id='services'>Services</section>
   )
 }
+
+export default Services

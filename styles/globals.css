@@ -58,6 +58,7 @@ h1{
 
 section{
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -145,7 +146,8 @@ img{
 
 /* ======== CSS Import From Components ======= */
 
-@import '../components/header/header.css'
+@import '../components/header/header.css';
+@import '../components/nav/nav.css';
 
 
 
