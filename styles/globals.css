@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-
 *{
   margin: 0;
   padding: 0;
@@ -42,6 +41,7 @@ body{
   background-image: url(../public/assets/bg-texture.png);
 }
 
+
 /* ========== General Styles ========== */
 .container{
   width: var(--container_width_lg);
@@ -70,7 +70,7 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
+.text_light {
   color: var(--color_light);
 }
 
@@ -96,7 +96,7 @@ a:hover {
 
 .btn:hover{
   background: var(--color_white);
-  columns: var(--color_bg);
+  color: var(--color_bg);
   border-color: transparent;
 }
 
@@ -111,6 +111,7 @@ img{
   object-fit: cover;
 }
 
+
 /* ======= Media Queries Medium Devices ======== */
 @media screen and (max-width: 1024px) {
   .container{
@@ -124,6 +125,10 @@ img{
 
 /* ======= Media Queries Small Devices ======== */
 @media screen and (max-width: 600px) {
+  h1{
+    font-size: 2rem;
+  }
+
   .container{
     width: var(--container_width_sm);
   }
@@ -131,8 +136,16 @@ img{
   section > h2{
     margin-bottom: 2rem;
   }
+
+  .btn{
+    padding: 0.5rem 1rem;
+  }
 }
 
+
+/* ======== CSS Import From Components ======= */
+
+@import '../components/header/header.css'
 
 
 
