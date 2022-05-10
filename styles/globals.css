@@ -101,7 +101,7 @@ a:hover {
   border-color: transparent;
 }
 
-.btn-primary{
+.btn_primary{
   background: var(--color_primary);
   color: var(--color_bg);
 }
@@ -148,6 +148,7 @@ img{
 
 @import '../components/header/header.css';
 @import '../components/nav/nav.css';
+@import '../components/about/about.css'
 
 
 
