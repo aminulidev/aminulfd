@@ -1,0 +1,158 @@
+// Google Front
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+// Variables
+$color_bg: #1f1f38;
+$color_bg_variant: #2c2c6c;
+$color_primary: #4db5ff;
+$color_primary_variant: rgba(77, 181, 255, 0.4);
+$color_white: #fff;
+$color_light: rgba(255, 255, 255, 0.6);
+
+$transition: all 400ms ease;
+
+$big_radius: 3rem;
+$md_radius: 1.5rem;
+$sm_radius: 0.5rem;
+
+
+html {
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: $color_bg;
+        color: $color_white;
+        line-height: 1.7;
+        background-image: url(../public/assets/bg-texture.png);
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        .text_light {
+            color: $color_light;
+        }
+
+        a {
+            color: $color_primary;
+            transition: $transition;
+
+            &:hover {
+                color: $color_white;
+            }
+        }
+
+
+        // Button
+        .btn {
+            width: max-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $color_primary;
+            padding: 0.75rem 1.2rem;
+            border-radius: $big_radius;
+            cursor: pointer;
+            border: 1px solid $color_primary;
+            transition: $transition;
+
+            &:hover {
+                background: $color_white;
+                color: $color_bg;
+                border-color: transparent;
+            }
+        }
+
+        .btn_primary {
+            background: $color_primary;
+            color: $color_bg;
+        }
+
+
+        // All Section
+        section {
+            h2,
+            h5 {
+                text-align: center;
+                color: $color_light;
+            }
+
+            h2 {
+                color: $color_primary;
+            }
+        }
+
+        .title{
+            margin-bottom: 4rem;
+        }
+
+        .section-gap{
+            padding: 8rem 0;
+            height: 100vh;
+        }
+
+
+
+        /* ======= Media Queries Medium Devices ======== */
+        @media screen and (max-width: 991.98px) {
+            .section-gap{
+                padding: 6rem 0;
+            }
+
+            .title{
+                margin-bottom: 3rem;
+            }
+        }
+
+        /* ======= Media Queries Small Devices ======== */
+        @media screen and (max-width: 575.98px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            
+
+            .section-gap{
+                padding: 4rem 0;
+            }
+
+            section {
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .btn {
+                    padding: 0.5rem 1rem;
+                }
+            }
+        }
+
+
+        /* ======== CSS Import From Components ======= */
+
+        @import '../components/header/header.scss';
+        @import '../components/nav/nav.scss';
+        @import '../components/about/about.scss';
+
+
+
+
+    }
+
+
+}
