@@ -102,8 +102,8 @@ html {
         }
 
         .section-gap{
-            padding: 8rem 0;
-            height: 100vh;
+            padding-bottom: 8rem;
+            // height: 100vh;
         }
 
 
@@ -111,7 +111,7 @@ html {
         /* ======= Media Queries Medium Devices ======== */
         @media screen and (max-width: 991.98px) {
             .section-gap{
-                padding: 6rem 0;
+                padding-bottom: 6rem;
             }
 
             .title{
@@ -128,7 +128,8 @@ html {
             
 
             .section-gap{
-                padding: 4rem 0;
+                padding-bottom: 4rem;
+                // height: 80vh;
             }
 
             section {
@@ -148,6 +149,7 @@ html {
         @import '../components/header/header.scss';
         @import '../components/nav/nav.scss';
         @import '../components/about/about.scss';
+        @import '../components/experience/experience';
 
 
 

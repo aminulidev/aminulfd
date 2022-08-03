@@ -9,7 +9,7 @@ import Link from "next/link"
 const About = () => {
   return (
     
-    <section id='about' className="section-gap" >
+    <section id='about' className="about section-gap" >
         <div className="container about_container">
             <div className="title">
                 <h5>Get To Know</h5>
@@ -24,7 +24,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-7">
+                <div className="col-md-7 d-grid align-items-center">
                     <div className="about_content">
                         <div className="row g-4 pb-5 row-cols-1 row-cols-md-2 justify-content-center about_cards">
                             <div className="col">
@@ -46,12 +46,7 @@ const About = () => {
                         <Link href='#contact'><a className="btn btn_primary">Let's Talk</a></Link>
                     </div>
                 </div>
-
-
             </div>
-           
-
-
         </div>
     </section>
   )

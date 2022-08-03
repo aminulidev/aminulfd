@@ -1,34 +1,32 @@
-section{
-    .about_container{
-        .row{
-            .about_me{
+.about {
+    .about_container {
+        .row {
+            .about_me {
                 width: 80%;
                 aspect-ratio: 1/1;
                 border-radius: 2rem;
-                background: linear-gradient(
-                    45deg,
-                    transparent,
-                    $color_primary,
-                    transparent
-                );
+                background: linear-gradient(45deg,
+                        transparent,
+                        $color_primary,
+                        transparent);
                 display: grid;
                 place-items: center;
 
-                .about_img{
+                .about_img {
                     border-radius: 2rem;
                     overflow: hidden;
                     transform: rotate(10deg);
                     transition: $transition;
 
-                    &:hover{
+                    &:hover {
                         transform: rotate(0);
                     }
                 }
             }
 
-            .about_content{
-                .about_cards{
-                    .card_item{
+            .about_content {
+                .about_cards {
+                    .card_item {
                         background: $color_bg_variant;
                         border: 1px solid transparent;
                         border-radius: 1rem;
@@ -38,22 +36,22 @@ section{
                         width: 100%;
                         height: 100%;
 
-                        &:hover{
+                        &:hover {
                             background: transparent;
                             border-color: $color_primary_variant;
                             cursor: default;
                         }
 
-                        h5{
+                        h5 {
                             font-size: 1.25rem;
                         }
 
-                        small{
+                        small {
                             font-size: 0.7rem;
                             color: $color_light;
                         }
 
-                        .about_icon{
+                        .about_icon {
                             color: $color_primary;
                             font-size: 1.4rem;
                             margin-bottom: 1rem;
@@ -61,7 +59,7 @@ section{
                     }
                 }
 
-                .about_desc{
+                .about_desc {
                     margin-bottom: 2rem;
                     color: $color_light;
                 }
@@ -72,18 +70,25 @@ section{
 
     // Responsive md Devices
     @media screen and (max-width: 991.98px) {
+        .about {
+            
+        }
         
+
     }
 
     // Responsive sm Devices
     @media screen and (max-width: 575.98px) {
-        .about_container{
-            .row{
-                .about_me{
-                    width: 75%;
+        .about {
+            .about_container {
+                .row {
+                    .about_me {
+                        width: 75%;
+                    }
                 }
             }
         }
-        
+
+
     }
 }
