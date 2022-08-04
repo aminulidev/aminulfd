@@ -3,17 +3,17 @@ import {TbBrandNextjs} from 'react-icons/tb';
 
 const Experience = () => {
   return (
-    <section id='experience' className='experience section-gap'>
+    <section id='experience' className='experience section_gap'>
         <div className="container experience_container">
             <div className="title">
-                <h5>Skill I Have</h5>
+                <h5>What I Know</h5>
                 <h2>Experience</h2>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-md-8">
+                <div className="col-12 col-lg-8">
                     <div className="frontend">
                         <h4>Frontend Development</h4>
-                        <div className="row g-5 row-cols-1 row-cols-md-2">
+                        <div className="row g-5 row-cols-2 row-cols-md-3">
                             <div className="col">
                                 <div className="item">
                                     <span className="icon html5">

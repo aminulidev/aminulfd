@@ -5,6 +5,14 @@
                 background-color: $color_bg_variant;
                 padding: 3rem;
                 border-radius: $big_radius;
+                border: 1px solid transparent;
+                transition: $transition;
+
+                &:hover{
+                    background: transparent;
+                    border-color: $color_primary_variant;
+                    cursor: default;
+                }
 
                 h4{
                     text-align: center;
@@ -15,10 +23,16 @@
                 .row{
                     .col{
                         .item{
-                            display: inline-flex;
+                            display: flex;
                             align-items: center;
                             justify-content: start;
-                            font-size: 1.4rem;
+                            font-size: 1.8rem;
+
+                            &:hover{
+                                .icon{
+                                    background-color: $color_primary_variant;
+                                }
+                            }
     
                             .icon{
                                 background-color: $color_white;
@@ -29,7 +43,9 @@
                                 justify-content: center;
                                 margin-right: 1rem;
                                 border-radius: $sm_radius;
+                                transition: $transition;
                             }
+
                             .html5{
                                 color: #e34f26;
                             }
@@ -63,9 +79,7 @@
                 }
                 
             }
-            .backend{
-                background-color: $color_bg_variant;
-            }
+            
         }
     }
 
@@ -84,6 +98,20 @@
             .row{
                 .frontend{
                     padding: 3rem 1.5rem;
+                    border-radius: $md_radius;
+
+                    .row{
+                        .col{
+                            .item{
+                                justify-content: space-around;
+                                font-size: 2rem;
+
+                                h5{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

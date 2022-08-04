@@ -4,7 +4,7 @@
             .about_me {
                 width: 80%;
                 aspect-ratio: 1/1;
-                border-radius: 2rem;
+                border-radius: $md_radius;
                 background: linear-gradient(45deg,
                         transparent,
                         $color_primary,
@@ -13,13 +13,16 @@
                 place-items: center;
 
                 .about_img {
-                    border-radius: 2rem;
                     overflow: hidden;
-                    transform: rotate(10deg);
+                    transform: rotate(8deg);
                     transition: $transition;
 
                     &:hover {
                         transform: rotate(0);
+                    }
+
+                    span{
+                        border-radius: $md_radius;
                     }
                 }
             }

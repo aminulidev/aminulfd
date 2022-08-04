@@ -9,7 +9,7 @@ import Link from "next/link"
 const About = () => {
   return (
     
-    <section id='about' className="about section-gap" >
+    <section id='about' className="about section_gap" >
         <div className="container about_container">
             <div className="title">
                 <h5>Get To Know</h5>

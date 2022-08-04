@@ -1,0 +1,61 @@
+.testimonial {
+    .testimonial_container {
+        .row {
+            justify-content: center;
+
+            .swiper {
+                .item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $color_bg_variant;
+                    padding: 2rem;
+                    border-radius: $md_radius;
+                    border: 1px solid transparent;
+                    transition: $transition;
+
+                    &:hover {
+                        background: transparent;
+                        border-color: $color_primary_variant;
+                        cursor: default;
+
+                        .img {
+                            span {
+                                transform: scale(1.05);
+                            }
+                        }
+                    }
+
+                    .img {
+                        height: 100px;
+                        width: 100px;
+                        border-radius: 50%;
+                        border: 0.25rem solid $color_primary;
+
+                        span {
+                            border-radius: 50%;
+                            transition: $transition;
+                        }
+                    }
+
+                    h5 {
+                        margin: 1.5rem 0;
+                    }
+                }
+
+                .swiper-pagination {
+                    .swiper-pagination-bullet-active {
+                        background: $color_primary !important;
+                    }
+
+                    .swiper-pagination-bullet{
+                        background: $color_bg;
+                    }
+                }
+            }
+
+
+        }
+    }
+}

@@ -10,7 +10,7 @@ import {BsChevronDoubleDown} from 'react-icons/bs'
 const Header = () => {
   return (
 
-    <header className='section-gap'>
+    <header className='section_gap'>
         <div className='container header_container'>
             <div className='title'>
                 <h5>Hello I'm</h5>
