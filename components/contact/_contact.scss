@@ -1,0 +1,137 @@
+.contact {
+    .contact_container {
+        .row {
+
+            &:not(:last-child) {
+                margin-bottom: 3rem;
+            }
+
+            .item {
+                background-color: $color_bg_variant;
+                border: 1px solid transparent;
+                border-radius: $md_radius;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 2rem;
+                transition: $transition;
+
+                &:hover {
+                    background: transparent;
+                    border-color: $color_primary_variant;
+                    cursor: default;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: 2rem;
+                }
+
+                .icon {
+                    font-size: 1.5rem;
+                    display: grid;
+                    align-items: flex-start;
+                    justify-content: center;
+                }
+
+                .email{
+                    color: #e8c01d;
+                }
+
+                .messanger{
+                    color: #006AFF;
+                }
+
+                .whatsapp{
+                    color: #42bd51;
+                }
+
+                .title {
+                    margin-bottom: 0;
+                    padding: 0.5rem 0;
+                }
+
+                .name {
+                    margin-bottom: 0;
+                }
+
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 0.5rem;
+
+                    .btn {
+                        padding: 0.5rem 1rem;
+                    }
+                }
+
+            }
+
+
+            .contact_form {
+
+                .name,
+                .email,
+                .message {
+                    background-color: transparent;
+                    border-color: $color_primary_variant;
+                    padding: 1rem;
+                    transition: $transition;
+
+                    &:not(:last-child) {
+                        margin-bottom: 1.5rem;
+                    }
+
+                    &:focus {
+                        box-shadow: none;
+                        background-color: $color_bg_variant;
+                    }
+                }
+
+                .name {}
+
+                .email {}
+
+                .message {}
+            }
+        }
+    }
+
+
+    // Responsive LG Devices
+    @media screen and (max-width: 991.98px) {}
+
+
+    // Responsive MD Devices
+    @media screen and (max-width: 767.98px) {}
+
+
+    // Responsive SM Devices
+    @media screen and (max-width: 575.98px) {
+        .contact_container {
+            .row {
+                &:not(:last-child) {
+                    margin-bottom: 2rem;
+                }
+
+                .item {
+                    border-radius: $sm_radius;
+                }
+
+                .contact_form {
+                    .name,
+                    .email,
+                    .message {
+                        padding: 0.5rem;
+                    }
+
+                    .message {
+                        line-height: 0.8;
+                    }
+                }
+            }
+        }
+    }
+
+}
