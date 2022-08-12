@@ -26,7 +26,7 @@ const About = () => {
                 </div>
                 <div className="col-md-7 d-grid align-items-center">
                     <div className="about_content">
-                        <div className="row g-4 pb-5 row-cols-1 row-cols-md-2 justify-content-center about_cards">
+                        <div className="row g-4 row-cols-1 row-cols-md-2 justify-content-center about_cards">
                             <div className="col">
                                 <div className="card_item">
                                     <FaAward className="about_icon"/>
@@ -43,7 +43,7 @@ const About = () => {
                             </div>
                         </div>
 
-                        <Link href='#contact'><a className="btn btn_primary">Let's Talk</a></Link>
+                        {/* <Link href='#contact'><a className="btn btn_primary">Let's Talk</a></Link> */}
                     </div>
                 </div>
             </div>

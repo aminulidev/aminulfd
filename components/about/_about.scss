@@ -21,7 +21,7 @@
                         transform: rotate(0);
                     }
 
-                    span{
+                    span {
                         border-radius: $md_radius;
                     }
                 }
@@ -72,13 +72,7 @@
 
 
     // Responsive md Devices
-    @media screen and (max-width: 991.98px) {
-        .about {
-            
-        }
-        
-
-    }
+    @media screen and (max-width: 991.98px) {}
 
     // Responsive sm Devices
     @media screen and (max-width: 575.98px) {
@@ -91,7 +85,5 @@
                 }
             }
         }
-
-
     }
 }

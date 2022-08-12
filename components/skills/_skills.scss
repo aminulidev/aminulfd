@@ -1,0 +1,119 @@
+.skills{
+    .skills_container{
+        .row{
+            .frontend{
+                background-color: $color_bg_variant;
+                padding: 3rem;
+                border-radius: $big_radius;
+                border: 1px solid transparent;
+                transition: $transition;
+
+                &:hover{
+                    background: transparent;
+                    border-color: $color_primary_variant;
+                    cursor: default;
+                }
+
+                h4{
+                    text-align: center;
+                    font-weight: 600;
+                    margin-bottom: 2.5rem;
+                }
+
+                .row{
+                    .col{
+                        .item{
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            font-size: 1.8rem;
+
+                            &:hover{
+                                .icon{
+                                    background-color: $color_primary_variant;
+                                }
+                            }
+    
+                            .icon{
+                                background-color: $color_white;
+                                width: 50px;
+                                height: 50px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-right: 1rem;
+                                border-radius: $sm_radius;
+                                transition: $transition;
+                            }
+
+                            .html5{
+                                color: #e34f26;
+                            }
+                            .css3{
+                                color: #264de4;
+                            }
+                            .js{
+                                color: #f7df1e;
+                            }
+                            .sass{
+                                color: #c69;
+                            }
+                            .bootstrap{
+                                color: #6e12ef;
+                            }
+                            .git{
+                                color: #e84d31;
+                            }
+                            .react{
+                                color: #78def8;
+                            }
+                            .nextjs{
+                                color: #000;
+                            }
+    
+                            h5{
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+    }
+
+
+    // Responsive LG Devices
+    @media screen and (max-width: 991.98px) {
+        
+    }
+    // Responsive MD Devices
+    @media screen and (max-width: 767.98px) {
+        
+    }
+    // Responsive SM Devices
+    @media screen and (max-width: 575.98px) {
+        .skills_container{
+            .row{
+                .frontend{
+                    padding: 3rem 1.5rem;
+                    border-radius: $md_radius;
+
+                    .row{
+                        .col{
+                            .item{
+                                justify-content: space-around;
+                                font-size: 2rem;
+
+                                h5{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

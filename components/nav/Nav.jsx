@@ -1,8 +1,9 @@
 import Link from "next/link";
-import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
-import {BiBook, BiMessage} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
-import {useState} from 'react'
+import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
+import {BiBook, BiMessage} from 'react-icons/bi';
+import {RiServiceLine} from 'react-icons/ri';
+
+import {useState} from 'react';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');

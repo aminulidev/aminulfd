@@ -51,6 +51,7 @@ html {
         a {
             color: $color_primary;
             transition: $transition;
+            text-decoration: none;
 
             &:hover {
                 color: $color_white;
@@ -105,6 +106,10 @@ html {
             padding-bottom: 8rem;
         }
 
+        .footer{
+            padding: 8rem 0;
+        }
+
 
 
         /* ======= Media Queries Medium Devices ======== */
@@ -115,6 +120,10 @@ html {
 
             .title{
                 margin-bottom: 3rem;
+            }
+
+            .footer{
+                padding: 6rem 0;
             }
         }
 
@@ -139,6 +148,10 @@ html {
                     padding: 0.5rem 1rem;
                 }
             }
+
+            .footer{
+                padding: 4rem 0 6rem 0
+            }
         }
 
 
@@ -147,11 +160,13 @@ html {
         @import '../components/header/header.scss';
         @import '../components/nav/nav.scss';
         @import '../components/about/about.scss';
+        @import '../components/skills/skills';
         @import '../components/experience/experience';
-        @import '../components/services/services';
         @import '../components/portfolio/portfolio';
+        @import '../components/services/services';
         @import '../components/testimonials/testimonials';
         @import '../components/contact/contact';
+        @import '../components/footer/footer';
 
     }
 

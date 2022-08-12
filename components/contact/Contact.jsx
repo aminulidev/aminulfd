@@ -22,7 +22,7 @@ const Contact = () => {
                         <p className="name">aminulds61@gmail.com</p>
                         <div className="buttons">
                             <Link href="mailto:aminulds61@gmail.com" target="_blank">
-                                <a className="btn btn_primary" target="_blank">Send Message</a>
+                                <a className="btn" target="_blank">Send Message</a>
                             </Link>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Contact = () => {
                         <p className="name">m.me/aminulids</p>
                         <div className="buttons">
                             <Link href="https://m.me/aminulids" target="_blank">
-                                <a className="btn btn_primary" target="_blank">Send Message</a>
+                                <a className="btn" target="_blank">Send Message</a>
                             </Link>
                         </div>
                     </div>
@@ -49,8 +49,8 @@ const Contact = () => {
                         <h6 className="title">WhatsApp</h6>
                         <p className="name">+8801743-724256</p>
                         <div className="buttons">
-                            <Link href="mailto:aminulds61@gmail.com" target="_blank">
-                                <a className="btn btn_primary" target="_blank">Send Message</a>
+                            <Link href="https://web.whatsapp.com/send?phone=+8801743724256" target="_blank">
+                                <a className="btn" target="_blank">Send Message</a>
                             </Link>
                         </div>
                     </div>
@@ -58,11 +58,14 @@ const Contact = () => {
             </div>
             <div className="row justify-content-center">
                 <div className="col-12 col-md-8">
-                    <div className="contact_form">
-                        <input type="text" name="name" placeholder="Your Name" className="form-control name" />
-                        <input type="email" name="email" placeholder="Your Email" className="form-control email" />
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" className="form-control message"></textarea>
-                    </div>
+                    <form className="contact_form" action="">
+                        <input type="text" name="name" placeholder="Your Name" className="form-control name" required/>
+                        <input type="email" name="email" placeholder="Your Email" className="form-control email" required/>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" className="form-control message" required></textarea>
+                        <div className="form_button">
+                            <button type="submit" className="btn btn_primary">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

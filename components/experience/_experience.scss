@@ -1,114 +1,87 @@
-.experience{
-    .experience_container{
-        .row{
-            .frontend{
+.experience {
+    .experience_container {
+        .row {
+            .item {
                 background-color: $color_bg_variant;
-                padding: 3rem;
-                border-radius: $big_radius;
+                padding: 2rem;
+                border-radius: $md_radius;
                 border: 1px solid transparent;
                 transition: $transition;
 
-                &:hover{
+                &:hover {
                     background: transparent;
                     border-color: $color_primary_variant;
                     cursor: default;
                 }
 
-                h4{
-                    text-align: center;
-                    font-weight: 600;
-                    margin-bottom: 2.5rem;
+                .title {
+                    margin-bottom: 1.5rem;
+                    color: $color_white;
                 }
 
-                .row{
-                    .col{
-                        .item{
-                            display: flex;
-                            align-items: center;
-                            justify-content: flex-start;
-                            font-size: 1.8rem;
+                .details {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
 
-                            &:hover{
-                                .icon{
-                                    background-color: $color_primary_variant;
-                                }
-                            }
-    
-                            .icon{
-                                background-color: $color_white;
-                                width: 50px;
-                                height: 50px;
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                margin-right: 1rem;
-                                border-radius: $sm_radius;
-                                transition: $transition;
-                            }
+                    .designation,
+                    .duration {
+                        color: $color_light;
+                    }
 
-                            .html5{
-                                color: #e34f26;
-                            }
-                            .css3{
-                                color: #264de4;
-                            }
-                            .js{
-                                color: #f7df1e;
-                            }
-                            .sass{
-                                color: #c69;
-                            }
-                            .bootstrap{
-                                color: #6e12ef;
-                            }
-                            .git{
-                                color: #e84d31;
-                            }
-                            .react{
-                                color: #78def8;
-                            }
-                            .nextjs{
-                                color: #000;
-                            }
-    
-                            h5{
-                                margin-bottom: 0;
-                            }
+                    .designation {
+                        margin-bottom: 0;
+                    }
+
+                    .duration {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .icon {
+                            color: $color_primary;
+                            margin-right: 6px;
                         }
                     }
                 }
-                
             }
-            
         }
     }
 
 
     // Responsive LG Devices
-    @media screen and (max-width: 991.98px) {
-        
-    }
+    @media screen and (max-width: 991.98px) {}
+
+
     // Responsive MD Devices
-    @media screen and (max-width: 767.98px) {
-        
-    }
+    @media screen and (max-width: 767.98px) {}
+
+
     // Responsive SM Devices
     @media screen and (max-width: 575.98px) {
-        .experience_container{
-            .row{
-                .frontend{
-                    padding: 3rem 1.5rem;
-                    border-radius: $md_radius;
+        .experience_container {
+            .row {
+                .item {
+                    border-radius: $sm_radius;
 
-                    .row{
-                        .col{
-                            .item{
-                                justify-content: space-around;
-                                font-size: 2rem;
+                    .title{
+                        font-size: 18px;
+                    }
 
-                                h5{
-                                    display: none;
-                                }
+                    .details {
+                        .designation,
+                        .duration {
+                            font-size: 15px;
+                        }
+    
+                        .duration {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+    
+                            .icon {
+                                color: $color_primary;
+                                margin-right: 6px;
                             }
                         }
                     }
@@ -116,4 +89,5 @@
             }
         }
     }
+
 }
