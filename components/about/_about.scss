@@ -1,4 +1,6 @@
 .about {
+    padding-top: 8rem;
+
     .about_container {
         .row {
             .about_me {
@@ -13,6 +15,7 @@
                 place-items: center;
 
                 .about_img {
+                    height: 100%;
                     overflow: hidden;
                     transform: rotate(8deg);
                     transition: $transition;
@@ -63,6 +66,7 @@
                 }
 
                 .about_desc {
+                    margin-top: 0 !important;
                     margin-bottom: 2rem;
                     color: $color_light;
                 }
@@ -72,11 +76,17 @@
 
 
     // Responsive md Devices
-    @media screen and (max-width: 991.98px) {}
+    @media screen and (max-width: 991.98px) {
+        .about{
+            padding-top: 6rem;
+        }
+    }
 
     // Responsive sm Devices
     @media screen and (max-width: 575.98px) {
         .about {
+            padding-top: 4rem;
+            
             .about_container {
                 .row {
                     .about_me {

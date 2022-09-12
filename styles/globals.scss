@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 
-// Variables
+// Color Variables
 $color_bg: #1f1f38;
 $color_bg_variant: #2c2c6c;
 $color_primary: #90B77D;
@@ -10,8 +10,10 @@ $color_primary_variant: rgba(77, 181, 255, 0.4);
 $color_white: #fff;
 $color_light: rgba(255, 255, 255, 0.6);
 
+// Animation variables
 $transition: all 400ms ease;
 
+// Radius Variables
 $big_radius: 1rem;
 $md_radius: 0.875rem;
 $sm_radius: 0.375rem;
@@ -87,6 +89,7 @@ html {
 
         // All Section
         section {
+
             h2,
             h5 {
                 text-align: center;
@@ -98,15 +101,15 @@ html {
             }
         }
 
-        .title{
+        .title {
             margin-bottom: 4rem;
         }
 
-        .section_gap{
+        .section_gap {
             padding-bottom: 8rem;
         }
 
-        .footer{
+        .footer {
             padding: 8rem 0;
         }
 
@@ -114,15 +117,19 @@ html {
 
         /* ======= Media Queries Medium Devices ======== */
         @media screen and (max-width: 991.98px) {
-            .section_gap{
+            .section_gap {
                 padding-bottom: 6rem;
             }
 
-            .title{
+            .title {
                 margin-bottom: 3rem;
+
+                h2 {
+                    margin-bottom: 0;
+                }
             }
 
-            .footer{
+            .footer {
                 padding: 6rem 0;
             }
         }
@@ -133,9 +140,9 @@ html {
                 font-size: 2rem;
             }
 
-            
 
-            .section_gap{
+
+            .section_gap {
                 padding-bottom: 4rem;
             }
 
@@ -149,7 +156,7 @@ html {
                 }
             }
 
-            .footer{
+            .footer {
                 padding: 4rem 0 6rem 0
             }
         }
@@ -157,9 +164,8 @@ html {
 
         /* ======== CSS Import From Components ======= */
 
-        @import '../components/header/header.scss';
-        @import '../components/nav/nav.scss';
-        @import '../components/about/about.scss';
+        @import '../components/nav/nav';
+        @import '../components/about/about';
         @import '../components/skills/skills';
         @import '../components/experience/experience';
         @import '../components/portfolio/portfolio';

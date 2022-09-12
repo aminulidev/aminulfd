@@ -12,7 +12,6 @@ const Skills = () => {
             <div className="row justify-content-center">
                 <div className="col-12 col-lg-8">
                     <div className="frontend">
-                        <h4>Frontend Development</h4>
                         <div className="row g-5 row-cols-2 row-cols-md-3">
                             <div className="col">
                                 <div className="item">
