@@ -30,7 +30,7 @@ const About = () => {
                         <div className="row g-4 row-cols-1 row-cols-md-2 justify-content-center about_cards">
                             {
                                 aboutData.map((data) =>{
-                                    return <AboutItem icon={data.icon} title={data.title} description={data.description} />
+                                    return <AboutItem key={data.id} icon={data.icon} title={data.title} description={data.description} />
                                 })
                             }
                             
