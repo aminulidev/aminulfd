@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
+import TechIcon from './TechIcon';
 
 const PortfolioItem = ({ img, title, technology, github, live}) => {
     return (
@@ -10,7 +11,11 @@ const PortfolioItem = ({ img, title, technology, github, live}) => {
                     <Image src={img} className="img-fluid" height={250} width={500}  alt={title} />
                 </div>
                 <h5>{title}</h5>
-                <p>{technology}</p>
+                <p>
+                    {technology.map((tech) => {
+                        return <TechIcon key={tech.id} icon={tech.icon} />
+                    })}
+                </p>
                 <div className="buttons">
                     <Link href={github}>
                         <a className='btn btn_primary' target="_blank">Github</a>

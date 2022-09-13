@@ -8,7 +8,8 @@ export const portfolioData = [
         id: 1,
         img: "https://i.ibb.co/QdtH1Pk/online-Course.png",
         title: "Portfolio Title",
-        technology: [<FaHtml5 className='icon html5'/>, <FaCss3Alt className='icon css3'/>, <IoLogoJavascript className='icon js'/> ],
+        technology: [{id: 1, icon: <FaHtml5 className='icon html5'/>}, {id: 2, icon: <FaCss3Alt className='icon css3'/>}, {id: 3, icon: <IoLogoJavascript className='icon js'/>} ],
+
         github: "https://github.com/aminulds",
         live: "https://github.com/aminulds"
     }

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 
 import Nav from './../components/nav/Nav';
 import About from './../components/about/About';
@@ -10,16 +11,20 @@ import Footer from './../components/footer/Footer';
 
 
 export default function Home() {
-  return (
-    <>
-		<Nav/>
-		<About/>
-		<Skills/>
-        <Experience/>
-		<Portfolio/>
-		<Testimonial/>
-		<Contact/>
-		<Footer/>
-    </>
-  )
+	return (
+		<>
+			<Head>
+				<title>Frontend Developer | HTML5 | CSS3 | Sass | Tailwind CSS | Bootstrap | Git | JavaScript | React | NextJS</title>
+			</Head>
+
+			<Nav />
+			<About />
+			<Skills />
+			<Experience />
+			<Portfolio />
+			<Testimonial />
+			<Contact />
+			<Footer />
+		</>
+	)
 }
