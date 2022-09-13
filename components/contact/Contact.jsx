@@ -1,4 +1,4 @@
-import ContactItem from "./contactItem";
+import ContactItem from "./ContactItem"
 // Data
 import { contactData } from './data';
 // Emailjs
@@ -39,7 +39,7 @@ const Contact = () => {
                         <form className="contact_form" ref={form} onSubmit={sendEmail}>
                             <input type="text" name="name" placeholder="Your Name" className="form-control name" required />
                             <input type="email" name="email" placeholder="Your Email" className="form-control email" required />
-                            <textarea name="message" id="" cols="30" rows="6" placeholder="Your Message" className="form-control message" required></textarea>
+                            <textarea name="message" id="" cols="30" rows="4" placeholder="Your Message" className="form-control message" required></textarea>
                             <div className="form_button">
                                 <button type="submit" className="btn btn_primary">Submit</button>
                             </div>
