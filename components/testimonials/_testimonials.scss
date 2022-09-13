@@ -45,17 +45,17 @@
                 }
 
                 .swiper-pagination {
+                    .swiper-pagination-bullet{
+                        background: $color_primary;
+                    }
+
                     .swiper-pagination-bullet-active {
                         background: $color_primary !important;
                     }
 
-                    .swiper-pagination-bullet{
-                        background: $color_bg;
-                    }
+                    
                 }
             }
-
-
         }
     }
 }

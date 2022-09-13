@@ -448,11 +448,11 @@ html body .testimonial .testimonial_container .row .swiper .item .img span {
 html body .testimonial .testimonial_container .row .swiper .item h5 {
   margin: 1.5rem 0;
 }
+html body .testimonial .testimonial_container .row .swiper .swiper-pagination .swiper-pagination-bullet {
+  background: #90B77D;
+}
 html body .testimonial .testimonial_container .row .swiper .swiper-pagination .swiper-pagination-bullet-active {
   background: #90B77D !important;
-}
-html body .testimonial .testimonial_container .row .swiper .swiper-pagination .swiper-pagination-bullet {
-  background: #1f1f38;
 }
 html body .contact .contact_container .row:not(:last-child) {
   margin-bottom: 3rem;
