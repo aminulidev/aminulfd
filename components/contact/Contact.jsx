@@ -1,76 +1,54 @@
-import Link from "next/link"
-
-// Icon
-import {FaEnvelope, FaFacebookMessenger, FaWhatsapp} from 'react-icons/fa';
-
+import ContactItem from "./contactItem";
+// Data
+import { contactData } from './data';
+// Emailjs
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-  return (
-    <section id='contact' className="contact section_gap">
-        <div className="container contact_container">
-            <div className="title">
-                <h5>Feel Free to</h5>
-                <h2>Contact</h2>
-            </div>
-            <div className="row g-4 g-lg-5">
-                <div className="col-12 col-md-4">
-                    <div className="item">
-                        <div className="icon email">
-                            <FaEnvelope />
-                        </div>
-                        <h6 className="title">Email</h6>
-                        <p className="name">aminulds61@gmail.com</p>
-                        <div className="buttons">
-                            <Link href="mailto:aminulds61@gmail.com" target="_blank">
-                                <a className="btn" target="_blank">Send Message</a>
-                            </Link>
-                        </div>
-                    </div>
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_c9jzt0k', 'template_ojxbup1', form.current, 'user_YWTe0E3A0Dr0xYXIO0lFQ')
+
+        e.target.reset()
+    
+    };
+
+
+    return (
+        <section id='contact' className="contact section_gap">
+            <div className="container contact_container">
+                <div className="title">
+                    <h5>Feel Free to</h5>
+                    <h2>Contact</h2>
                 </div>
-                <div className="col-12 col-md-4">
-                    <div className="item">
-                        <div className="icon messanger">
-                            <FaFacebookMessenger />
-                        </div>
-                        <h6 className="title">Messanger</h6>
-                        <p className="name">m.me/aminulids</p>
-                        <div className="buttons">
-                            <Link href="https://m.me/aminulids" target="_blank">
-                                <a className="btn" target="_blank">Send Message</a>
-                            </Link>
-                        </div>
-                    </div>
+                <div className="row g-4 ">
+
+                    {
+                        contactData.map((data) => {
+                            return <ContactItem key={data.id} icon={data.icon} username={data.username} url={data.url} />
+                        })
+                    }
+
                 </div>
-                <div className="col-12 col-md-4">
-                    <div className="item">
-                        <div className="icon whatsapp">
-                            <FaWhatsapp />
-                        </div>
-                        <h6 className="title">WhatsApp</h6>
-                        <p className="name">+8801743-724256</p>
-                        <div className="buttons">
-                            <Link href="https://web.whatsapp.com/send?phone=+8801743724256" target="_blank">
-                                <a className="btn" target="_blank">Send Message</a>
-                            </Link>
-                        </div>
+                <div className="row justify-content-center">
+                    <div className="col-12 col-md-8">
+                        <form className="contact_form" ref={form} onSubmit={sendEmail}>
+                            <input type="text" name="name" placeholder="Your Name" className="form-control name" required />
+                            <input type="email" name="email" placeholder="Your Email" className="form-control email" required />
+                            <textarea name="message" id="" cols="30" rows="6" placeholder="Your Message" className="form-control message" required></textarea>
+                            <div className="form_button">
+                                <button type="submit" className="btn btn_primary">Submit</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div className="row justify-content-center">
-                <div className="col-12 col-md-8">
-                    <form className="contact_form" action="">
-                        <input type="text" name="name" placeholder="Your Name" className="form-control name" required/>
-                        <input type="email" name="email" placeholder="Your Email" className="form-control email" required/>
-                        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" className="form-control message" required></textarea>
-                        <div className="form_button">
-                            <button type="submit" className="btn btn_primary">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
 
 export default Contact

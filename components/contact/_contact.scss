@@ -46,24 +46,15 @@
                     color: #42bd51;
                 }
 
-                .title {
-                    margin-bottom: 0;
-                    padding: 0.5rem 0;
-                }
-
                 .name {
                     margin-bottom: 0;
+                    padding: 12px 0;
                 }
 
                 .buttons {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    padding-top: 0.5rem;
-
-                    .btn {
-                        padding: 0.5rem 1rem;
-                    }
                 }
 
             }
