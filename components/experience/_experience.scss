@@ -1,12 +1,18 @@
 .experience {
     .experience_container {
         .row {
+            justify-content: center;
+            
             .item {
                 background-color: $color_bg_variant;
-                padding: 2rem;
+                padding: 2rem 1.5rem;
                 border-radius: $md_radius;
                 border: 1px solid transparent;
                 transition: $transition;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
 
                 &:hover {
                     background: transparent;
@@ -14,15 +20,30 @@
                     cursor: default;
                 }
 
+                .icon {
+                    background-color: $color_white;
+                    color: $color_bg;
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: $circle_radius;
+                    transition: $transition;
+                    font-size: 1.8rem;
+                    margin-bottom: 1rem;
+                }
+
                 .title {
                     margin-bottom: 1.5rem;
                     color: $color_white;
                 }
 
-                .details {
+                .description {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    width: 100%;
 
                     .designation,
                     .duration {
@@ -38,9 +59,9 @@
                         align-items: center;
                         justify-content: center;
 
-                        .icon {
+                        .durationIcon {
                             color: $color_primary;
-                            margin-right: 6px;
+                            margin-right: 8px;
                         }
                     }
                 }
@@ -63,22 +84,24 @@
             .row {
                 .item {
                     border-radius: $sm_radius;
+                    padding: 1rem;
 
-                    .title{
+                    .title {
                         font-size: 18px;
                     }
 
                     .details {
+
                         .designation,
                         .duration {
                             font-size: 15px;
                         }
-    
+
                         .duration {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-    
+
                             .icon {
                                 color: $color_primary;
                                 margin-right: 6px;

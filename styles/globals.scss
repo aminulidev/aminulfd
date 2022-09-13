@@ -61,6 +61,38 @@ html {
             }
         }
 
+        // global icon 
+        .html5 {
+            color: #e34f26;
+        }
+
+        .css3 {
+            color: #264de4;
+        }
+
+        .js {
+            color: #f7df1e;
+        }
+
+        .sass {
+            color: #c69;
+        }
+
+        .bootstrap {
+            color: #6e12ef;
+        }
+
+        .git {
+            color: #e84d31;
+        }
+
+        .react {
+            color: #78def8;
+        }
+
+        .nextjs {
+            color: #000;
+        }
 
         // Button
         .btn {
@@ -69,7 +101,7 @@ html {
             align-items: center;
             justify-content: center;
             color: $color_primary;
-            padding: 0.75rem 1.2rem;
+            padding: 0.5rem 1rem;
             border-radius: $md_radius;
             cursor: pointer;
             border: 1px solid $color_primary;
@@ -170,7 +202,6 @@ html {
         @import '../components/skills/skills';
         @import '../components/experience/experience';
         @import '../components/portfolio/portfolio';
-        @import '../components/services/services';
         @import '../components/testimonials/testimonials';
         @import '../components/contact/contact';
         @import '../components/footer/footer';
