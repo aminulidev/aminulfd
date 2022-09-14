@@ -34,15 +34,15 @@
                     justify-content: center;
                 }
 
-                .email{
+                .email {
                     color: #e8c01d;
                 }
 
-                .skype{
+                .skype {
                     color: #009EDC;
                 }
 
-                .whatsapp{
+                .whatsapp {
                     color: #42bd51;
                 }
 
@@ -87,7 +87,7 @@
 
                 // .message {}
 
-                .form_button{
+                .form_button {
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -102,7 +102,28 @@
 
 
     // Responsive MD Devices
-    @media screen and (max-width: 767.98px) {}
+    @media screen and (max-width: 767.98px) {
+        .contact_container {
+            .row {
+                &:not(:last-child) {
+                    margin-bottom: 2rem;
+                }
+
+                .item {
+                    border-radius: $sm_radius;
+                    padding: 0.5rem;
+
+                    .buttons {
+                        .btn {
+                            padding: 6px 12px;
+                            font-size: 14px;
+                            margin-top: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 
     // Responsive SM Devices
@@ -115,9 +136,18 @@
 
                 .item {
                     border-radius: $sm_radius;
+                    padding: 0.5rem;
+
+                    .buttons {
+                        .btn {
+                            padding: 6px 12px;
+                            font-size: 14px;
+                        }
+                    }
                 }
 
                 .contact_form {
+
                     .name,
                     .email,
                     .message {
@@ -130,6 +160,7 @@
                 }
             }
         }
+
     }
 
 }

@@ -7,7 +7,7 @@ export const aboutData = [
         id: 1,
         icon: <FaAward className="about_icon"/>,
         title: "Experience",
-        description: "1+ Years Working"
+        description: "1+ Years"
     },
     {
         id: 2,

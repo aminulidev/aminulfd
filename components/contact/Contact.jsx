@@ -25,7 +25,7 @@ const Contact = () => {
                     <h5>Feel Free to</h5>
                     <h2>Contact</h2>
                 </div>
-                <div className="row g-4 ">
+                <div className="row g-2 g-md-4 ">
 
                     {
                         contactData.map((data) => {
@@ -35,7 +35,7 @@ const Contact = () => {
 
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-12 col-md-8">
+                    <div className="col-md-12 col-lg-8">
                         <form className="contact_form" ref={form} onSubmit={sendEmail}>
                             <input type="text" name="name" placeholder="Your Name" className="form-control name" required />
                             <input type="email" name="email" placeholder="Your Email" className="form-control email" required />
