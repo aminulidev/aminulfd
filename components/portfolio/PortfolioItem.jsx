@@ -8,7 +8,7 @@ const PortfolioItem = ({ img, title, technology, github, live }) => {
         <div className="col">
             <div className="card item">
                 <Image src={img} className="card-img-top" height={250} width={500} alt={title} />
-                <div class="card-body">
+                <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p>
                         {technology.map((tech) => {
