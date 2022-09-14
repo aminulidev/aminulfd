@@ -11,7 +11,7 @@ const Nav = () => {
     <section className="nav-section">
         <div className="container">
             <nav>
-                <Link href='#'>
+                <Link href='/'>
                     <a onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active': ''}><AiFillHome/></a>
                 </Link>
                 <Link href='#skills'>
