@@ -6,62 +6,57 @@
             .col {
                 .item {
                     background-color: $color_bg_variant;
-                    padding: 1.5rem;
-                    border-radius: $md_radius;
+                    border-radius: $sm_radius;
                     border: 1px solid transparent;
                     transition: $transition;
+
+                    span{
+                        border-radius: $sm_radius $sm_radius 0 0;
+                    }
 
                     &:hover {
                         background: transparent;
                         border-color: $color_primary_variant;
                         cursor: default;
+                    }
 
-                        .item_img {
-                            span {
-                                transform: scale(1.05);
+                    .card-body {
+                        padding-top: 0;
+
+                        h5 {
+                            margin: 1rem 0;
+                            color: $color_white;
+                        }
+
+                        p {
+                            text-align: center;
+
+                            .icon {
+                                font-size: 20px;
+
+                                &:not(:last-child) {
+                                    margin-right: 6px;
+                                }
+                            }
+                        }
+
+                        .buttons {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            .btn {
+                                border-radius: $sm_radius;
+                                transition: $transition;
+                            }
+
+                            .btn_primary {
+                                margin-right: 1rem;
                             }
                         }
                     }
 
-                    .item_img {
-                        span {
-                            border-radius: $sm_radius;
-                            display: block;
-                            transition: $transition;
-                        }
-                    }
 
-                    h5 {
-                        margin: 1rem 0;
-                        color: $color_white;
-                    }
-
-                    p{
-                        text-align: center;
-
-                        .icon{
-                            font-size: 20px;
-
-                            &:not(:last-child){
-                                margin-right: 6px;
-                            }
-                        }
-                    }
-
-                    .buttons {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-
-                        .btn {
-                            border-radius: $sm_radius;
-                            transition: $transition;
-                        }
-
-                        .btn_primary {
-                            margin-right: 1rem;
-                        }
-                    }
 
                 }
             }

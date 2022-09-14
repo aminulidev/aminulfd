@@ -1,5 +1,5 @@
 // Icon
-import { FaEnvelope, FaFacebookMessenger, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaSkype, FaWhatsapp } from 'react-icons/fa';
 
 
 export const contactData = [
@@ -11,14 +11,14 @@ export const contactData = [
     },
     {
         id: 1,
-        icon: <FaFacebookMessenger className='messanger' />,
+        icon: <FaSkype className='skype' />,
         username: 'm.me/aminulids',
-        url: 'https://m.me/aminulids'
+        url: 'skype:shaon724256?chat'
     },
     {
         id: 1,
         icon: <FaWhatsapp className='whatsapp' />,
         username: '+8801743-724256',
-        url: 'https://web.whatsapp.com/send?phone=+8801743724256'
+        url: 'https://web.whatsapp.com/send?phone=8801743724256'
     }
 ]

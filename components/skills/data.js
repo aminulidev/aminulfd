@@ -23,9 +23,9 @@ export const skillData = [
     },
     {
         id: 4,
-        icon: <FaSass />,
-        iconClass: "sass",
-        title: "SASS"
+        icon: <FaGitAlt />,
+        iconClass: "git",
+        title: "Git"
     },
     {
         id: 5,
@@ -35,21 +35,21 @@ export const skillData = [
     },
     {
         id: 6,
-        icon: <FaGitAlt />,
-        iconClass: "git",
-        title: "Git"
+        icon: <FaSass />,
+        iconClass: "sass",
+        title: "SASS"
     },
     {
         id: 7,
-        icon: <FaReact />,
-        iconClass: "react",
-        title: "React"
-    },
-    {
-        id: 8,
         icon: <TbBrandNextjs />,
         iconClass: "nextjs",
         title: "NextJS"
+    },
+    {
+        id: 8,
+        icon: <FaReact />,
+        iconClass: "react",
+        title: "React"
     },
     
 ].reverse();
