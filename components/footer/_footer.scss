@@ -21,13 +21,23 @@
                 &:not(:last-child) {
                     margin-right: 1rem;
                 }
+
+                &:hover {
+                    color: $color_primary;
+                }
             }
 
-            // .linkedin{}
+            .linkedin {
+                color: $color_linkedin;
+            }
 
-            // .github{}
+            .github {
+                color: $color_github;
+            }
 
-            // .twitter{}
+            .twitter {
+                color: $color_twitter;
+            }
         }
 
         // .footer_copyright{

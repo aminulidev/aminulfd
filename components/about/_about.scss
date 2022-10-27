@@ -31,6 +31,10 @@
             .about_content {
                 .about_cards {
                     .card_item {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
                         background: $color_bg_variant;
                         border: 1px solid transparent;
                         border-radius: 1rem;
@@ -43,7 +47,6 @@
                         &:hover {
                             background: transparent;
                             border-color: $color_primary_variant;
-                            cursor: default;
                         }
 
                         h5 {

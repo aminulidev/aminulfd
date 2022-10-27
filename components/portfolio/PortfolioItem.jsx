@@ -11,14 +11,15 @@ const PortfolioItem = ({ img, title, technology, github, live }) => {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p>
+                        <span className='me-1'>Used:</span>
                         {technology.map((tech) => {
                             return <TechIcon key={tech.id} icon={tech.icon} />
                         })}
                     </p>
                     <div className="buttons">
-                        <Link href={github}>
-                            <a className='btn btn_primary' target="_blank">Github</a>
-                        </Link>
+                        {<Link href={github}>
+                            <a className={`btn btn_primary ${github === '#' ? 'disable' : ''}`} target="_blank">Github</a>
+                        </Link>}
                         <Link href={live}>
                             <a className='btn' target="_blank">Live Demo</a>
                         </Link>

@@ -10,14 +10,13 @@
                     border: 1px solid transparent;
                     transition: $transition;
 
-                    span{
+                    span {
                         border-radius: $sm_radius $sm_radius 0 0;
                     }
 
                     &:hover {
                         background: transparent;
                         border-color: $color_primary_variant;
-                        cursor: default;
                     }
 
                     .card-body {

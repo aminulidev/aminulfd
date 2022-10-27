@@ -1,9 +1,9 @@
 module.exports = {
   images: {
-    domains: ['i.ibb.co', 'fiverr-res.cloudinary.com'],
+    domains: ['i.ibb.co', 'fiverr-res.cloudinary.com', 'www.thethemely.com'],
   },
 
- 
+
 
 
 }
