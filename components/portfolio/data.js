@@ -22,7 +22,7 @@ export const portfolioData = [
         live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
     },
     {
-        id: 2,
+        id: 3,
         img: "https://www.thethemely.com/images/product_feature_images/250122111808_61ef8810078cd.jpg",
         title: "e-Shop – Mega Shop eCommerce HTML Template",
         technology: [{ id: 1, icon: <FaHtml5 className='icon html5' /> }, { id: 2, icon: <FaCss3Alt className='icon css3' /> }, { id: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { id: 4, icon: <IoLogoJavascript className='icon js' /> }],
@@ -30,6 +30,24 @@ export const portfolioData = [
         github: "#",
         live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
     },
+    {
+        id: 4,
+        img: "https://i.ibb.co/q7Bpqzm/reactadmindashboard.jpg",
+        title: "React Admin Dashboard",
+        technology: [{ id: 1, icon: <FaHtml5 className='icon html5' /> }, { id: 2, icon: <FaCss3Alt className='icon css3' /> }, { id: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { id: 4, icon: <IoLogoJavascript className='icon js' /> }],
+
+        github: "https://github.com/aminulds/admindashboard",
+        live: "https://reactfadmindashboard.netlify.app/"
+    },
+    // {
+    //     id: 3,
+    //     img: "",
+    //     title: "",
+    //     technology: [{ id: 1, icon: <FaHtml5 className='icon html5' /> }, { id: 2, icon: <FaCss3Alt className='icon css3' /> }, { id: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { id: 4, icon: <IoLogoJavascript className='icon js' /> }],
+
+    //     github: "#",
+    //     live: "#"
+    // },
 
 
 ];
