@@ -1,6 +1,6 @@
 // Icon
 import { FaHtml5, FaCss3Alt, FaJs, FaSass, FaBootstrap, FaGitAlt, FaReact } from 'react-icons/fa';
-import {TbBrandNextjs} from 'react-icons/tb';
+import { SiNextdotjs } from 'react-icons/si';
 
 export const skillData = [
     {
@@ -41,7 +41,7 @@ export const skillData = [
     },
     {
         id: 7,
-        icon: <TbBrandNextjs />,
+        icon: <SiNextdotjs />,
         iconClass: "nextjs",
         title: "NextJS"
     },
@@ -51,5 +51,5 @@ export const skillData = [
         iconClass: "react",
         title: "React"
     },
-    
+
 ].reverse();
