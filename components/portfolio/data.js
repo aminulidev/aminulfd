@@ -1,7 +1,8 @@
 // Icon
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaChartArea, FaSass } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiMaterialui } from 'react-icons/si';
+import { SiMaterialui, SiSwiper } from 'react-icons/si';
+import { TbApi } from 'react-icons/tb';
 
 export const portfolioData = [
     {
@@ -39,6 +40,15 @@ export const portfolioData = [
 
         github: "https://github.com/aminulds/admindashboard",
         live: "https://reactfadmindashboard.netlify.app/"
+    },
+    {
+        id: 5,
+        img: "https://i.ibb.co/BLV8GXd/reactmovieapp.jpg",
+        title: "React Movie App",
+        technology: [{ id: 1, icon: <FaReact className='icon react' /> }, { id: 2, icon: <FaSass className='icon sass' /> }, { id: 3, icon: <SiSwiper className='icon swiper' /> }, { id: 4, icon: <TbApi className='icon api' /> }],
+
+        github: "https://github.com/aminulds/reactmovieapp",
+        live: "https://reactmovieapps.netlify.app"
     },
     // {
     //     id: 3,
