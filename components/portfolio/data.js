@@ -30,7 +30,7 @@ export const portfolioData = [
     {
         img: "https://i.ibb.co/BLV8GXd/reactmovieapp.jpg",
         title: "React Movie App",
-        technology: [{ icon: <FaReact className='icon react' /> }, { icon: <FaSass className='icon sass' /> }, { icon: <SiSwiper className='icon swiper' /> }, { icon: <TbApi className='icon api' /> }],
+        technology: [{ icon: <FaReact className='icon react' /> }, { icon: <FaSass className='icon sass' /> }, { icon: <SiSwiper className='icon swiper_icon' /> }, { icon: <TbApi className='icon api' /> }],
 
         github: "https://github.com/aminulds/reactmovieapp",
         live: "https://reactmovieapps.netlify.app"
@@ -38,7 +38,7 @@ export const portfolioData = [
     {
         img: "https://i.ibb.co/7Wm2hnQ/React-Music-Player-with-API.png",
         title: "React Music Player with API",
-        technology: [{ icon: <FaReact className='icon react' /> }, { icon: <SiTailwindcss className='icon tailwindcss' /> }, { icon: <SiSwiper className='icon swiper' /> }, { icon: <SiRedux className='icon redux' /> }, { icon: <TbApi className='icon api' /> }],
+        technology: [{ icon: <FaReact className='icon react' /> }, { icon: <SiTailwindcss className='icon tailwindcss' /> }, { icon: <SiSwiper className='icon swiper_icon' /> }, { icon: <SiRedux className='icon redux' /> }, { icon: <TbApi className='icon api' /> }],
 
         github: "https://github.com/aminulds/reactmusicplayer",
         live: "https://reactjmusicplayerwithapi.netlify.app"
@@ -46,7 +46,7 @@ export const portfolioData = [
     {
         img: "https://i.ibb.co/q7Bpqzm/reactadmindashboard.jpg",
         title: "React Admin Dashboard",
-        technology: [{ icon: <FaReact className='icon react' /> }, { icon: <SiMaterialui className='icon mui' /> }, { icon: <FaChartArea className='icon rechart' /> }, { icon: <FaSass className='icon sass' /> },],
+        technology: [{ icon: <FaReact className='icon react' /> }, { icon: <FaSass className='icon sass' /> }, { icon: <SiMaterialui className='icon mui' /> }, { icon: <FaChartArea className='icon rechart' /> },],
 
         github: "https://github.com/aminulds/admindashboard",
         live: "https://reactfadmindashboard.netlify.app/"
