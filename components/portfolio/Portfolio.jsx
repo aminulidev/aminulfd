@@ -13,7 +13,7 @@ const Portfolio = () => {
                 <div className="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
                     {
                         portfolioData.map((data) => {
-                            return <PortfolioItem key={data.id} img={data.img} title={data.title} technology={data.technology} github={data.github} live={data.live} />
+                            return <PortfolioItem key={data.title} img={data.img} title={data.title} technology={data.technology} github={data.github} live={data.live} />
                         })
                     }
                 </div>
