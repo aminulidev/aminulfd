@@ -6,11 +6,15 @@ import Portfolio from './../components/portfolio/Portfolio';
 import Testimonial from './../components/testimonials/Testimonial';
 import Contact from './../components/contact/Contact';
 import Footer from './../components/footer/Footer';
+import Head from 'next/head';
 
 
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>Frontend Dev | React | NextJS | Sass |Tailwind CSS | Bootstrap | Git | JavaScript | HTML5 | CSS3 | </title>
+			</Head>
 			<Nav />
 			<About />
 			<Skills />
