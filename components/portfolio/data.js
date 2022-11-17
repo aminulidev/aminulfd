@@ -28,6 +28,22 @@ export const portfolioData = [
         live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
     },
     {
+        img: "https://i.ibb.co/dPx7Sxx/dsmsm.png",
+        title: "Digital SMS System",
+        technology: [{ icon: <FaHtml5 className='icon html5' /> }, { icon: <FaSass className='icon sass' /> }, { icon: <FaBootstrap className='icon bootstrap' /> }, { icon: <IoLogoJavascript className='icon js' /> }],
+
+        github: "#",
+        live: "https://rajbd.com/dsmsweb"
+    },
+    {
+        img: "https://i.ibb.co/4PTtnJ9/dit.png",
+        title: "IT Company Website",
+        technology: [{ icon: <FaHtml5 className='icon html5' /> }, { icon: <FaSass className='icon sass' /> }, { icon: <FaBootstrap className='icon bootstrap' /> }, { icon: <IoLogoJavascript className='icon js' /> }],
+
+        github: "#",
+        live: "https://desktopit.net"
+    },
+    {
         img: "https://i.ibb.co/BLV8GXd/reactmovieapp.jpg",
         title: "React Movie App",
         technology: [{ icon: <FaReact className='icon react' /> }, { icon: <FaSass className='icon sass' /> }, { icon: <SiSwiper className='icon swiper_icon' /> }, { icon: <TbApi className='icon api' /> }],
