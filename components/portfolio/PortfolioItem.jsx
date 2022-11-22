@@ -13,7 +13,7 @@ const PortfolioItem = ({ img, title, technology, github, live }) => {
                     <p>
                         <span className='me-1'>Used:</span>
                         {technology.map((tech) => {
-                            return <TechIcon key={tech.icon} icon={tech.icon} />
+                            return <TechIcon key={tech.index} icon={tech.icon} />
                         })}
                     </p>
                     <div className="buttons">
