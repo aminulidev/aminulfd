@@ -41,15 +41,15 @@ export const skillData = [
     },
     {
         id: 7,
-        icon: <SiNextdotjs />,
-        iconClass: "nextjs",
-        title: "NextJS"
-    },
-    {
-        id: 8,
         icon: <FaReact />,
         iconClass: "react",
         title: "React"
+    },
+    {
+        id: 8,
+        icon: <SiNextdotjs />,
+        iconClass: "nextjs",
+        title: "NextJS"
     },
 
 ].reverse();

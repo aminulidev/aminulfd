@@ -6,17 +6,24 @@ import { TbApi } from 'react-icons/tb';
 
 export const portfolioData = [
     {
+        img: "https://www.thethemely.com/images/product_feature_images/081122053329_636a3e89ee7ec.jpg",
+        title: "Construction Website Template",
+        technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
+        github: "/",
+        live: "https://www.thethemely.com/item/deskro-construction-html-website-template/40"
+    },
+    {
         img: "https://www.thethemely.com/images/product_feature_images/070822062021_62efae05d8a8f.jpg",
         title: "Travel Agency Landing Page",
         technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
-        github: "#",
+        github: "/",
         live: "https://www.thethemely.com/item/triphub-tour-and-travel-agency-html-landing-page/34"
     },
     {
         img: "https://www.thethemely.com/images/product_feature_images/020822045058_62e90192c9063.jpg",
         title: "SAAS Website Template",
         technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
-        github: "#",
+        github: "/",
         live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
     },
     {
@@ -24,7 +31,7 @@ export const portfolioData = [
         title: "E-Commerce HTML Template",
         technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
 
-        github: "#",
+        github: "/",
         live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
     },
     {
@@ -32,7 +39,7 @@ export const portfolioData = [
         title: "Digital SMS System",
         technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
 
-        github: "#",
+        github: "/",
         live: "https://rajbd.com/dsmsweb"
     },
     {
@@ -40,7 +47,7 @@ export const portfolioData = [
         title: "IT Company Website",
         technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
 
-        github: "#",
+        github: "/",
         live: "https://desktopit.net"
     },
     {

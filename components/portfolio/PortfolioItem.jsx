@@ -18,7 +18,7 @@ const PortfolioItem = ({ img, title, technology, github, live }) => {
                     </p>
                     <div className="buttons">
                         {<Link href={github}>
-                            <a className={`btn btn_primary ${github === '#' ? 'disable' : ''}`} target="_blank">Github</a>
+                            <a className={`btn btn_primary ${github === '/' ? 'disable' : ''}`} target="_blank">Github</a>
                         </Link>}
                         <Link href={live}>
                             <a className={`btn ${live === '#' ? 'disable' : ''}`} target="_blank">Live Demo</a>
