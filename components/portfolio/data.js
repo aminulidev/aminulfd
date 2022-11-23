@@ -35,6 +35,14 @@ export const portfolioData = [
         live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
     },
     {
+        img: "https://www.thethemely.com/images/product_feature_images/231122094758_637d97ee31bc3.jpg",
+        title: "ISP HTML Template",
+        technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
+
+        github: "/",
+        live: "https://www.thethemely.com/item/disp-internet-service-provider-html-template/41"
+    },
+    {
         img: "https://i.ibb.co/dPx7Sxx/dsmsm.png",
         title: "Digital SMS System",
         technology: [{ index: 1, icon: <FaHtml5 className='icon html5' /> }, { index: 2, icon: <FaSass className='icon sass' /> }, { index: 3, icon: <FaBootstrap className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript className='icon js' /> }],
