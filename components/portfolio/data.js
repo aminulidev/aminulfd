@@ -1,7 +1,7 @@
 // Icon
 import { FaHtml5, FaSass, FaBootstrap, FaReact, FaChartArea } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux } from 'react-icons/si';
+import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase } from 'react-icons/si';
 import { TbApi } from 'react-icons/tb';
 
 export const portfolioData = [
@@ -81,6 +81,14 @@ export const portfolioData = [
 
         github: "https://github.com/aminulds/admindashboard",
         live: "https://reactfadmindashboard.netlify.app/"
+    },
+    {
+        img: "https://i.ibb.co/xhKB92k/realestet.png",
+        title: "React Real Estate Web App",
+        technology: [{ index: 1, icon: <FaReact className='icon react' /> }, { index: 2, icon: <SiTailwindcss className='icon tailwindcss' /> }, { index: 3, icon: <SiSwiper className='icon swiper_icon' /> }, { index: 4, icon: <SiFirebase className='icon firebase' /> },],
+
+        github: "https://github.com/aminulds/reactrealestate",
+        live: "https://reactrealstate.netlify.app"
     },
     // {
     //     img: "",

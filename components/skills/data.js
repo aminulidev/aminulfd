@@ -1,6 +1,6 @@
 // Icon
 import { FaHtml5, FaCss3Alt, FaJs, FaSass, FaBootstrap, FaGitAlt, FaReact } from 'react-icons/fa';
-import { SiNextdotjs } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss } from 'react-icons/si';
 
 export const skillData = [
     {
@@ -41,12 +41,18 @@ export const skillData = [
     },
     {
         id: 7,
+        icon: <SiTailwindcss />,
+        iconClass: "tailwindcss",
+        title: "Tailwind CSS"
+    },
+    {
+        id: 8,
         icon: <FaReact />,
         iconClass: "react",
         title: "React"
     },
     {
-        id: 8,
+        id: 9,
         icon: <SiNextdotjs />,
         iconClass: "nextjs",
         title: "NextJS"
