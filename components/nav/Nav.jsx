@@ -12,20 +12,20 @@ const Nav = () => {
             <div className="container">
                 <nav>
                     <Link href='/' data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Home">
-                        <a onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}
+                        <a title="Home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}
                         ><AiFillHome /></a>
                     </Link>
                     <Link href='#skills'>
-                        <a onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><FaHeadSideVirus /></a>
+                        <a title="Skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><FaHeadSideVirus /></a>
                     </Link>
                     <Link href='#experience'>
-                        <a onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><FaBriefcase /></a>
+                        <a title="Experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><FaBriefcase /></a>
                     </Link>
                     <Link href='#portfolio'>
-                        <a onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiFillProject /></a>
+                        <a title="Portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiFillProject /></a>
                     </Link>
                     <Link href='#contact'>
-                        <a onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><FaSms /></a>
+                        <a title="Contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><FaSms /></a>
                     </Link>
                 </nav>
             </div>
