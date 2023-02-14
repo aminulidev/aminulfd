@@ -2,7 +2,7 @@
 import { FaHtml5, FaSass, FaBootstrap, FaReact, FaChartArea } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase } from 'react-icons/si';
-import { TbApi } from 'react-icons/tb';
+import { TbApi, TbBrandNextjs } from 'react-icons/tb';
 
 export const portfolioData = [
     {
@@ -99,14 +99,32 @@ export const portfolioData = [
         live: "https://reactrealstate.netlify.app"
     },
 
-    // {
-    //     img: "",
-    //     title: "",
-    //     technology: [{ icon: <FaHtml5 title='HTML' className='icon html5' /> }, { icon: <FaSass title="Sass" className='icon sass' /> }, { icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { icon: <IoLogoJavascript  title="Javascript" className='icon js' /> }],
+    {
+        img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
+        title: "IMDB Movie App",
+        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
 
-    //     github: "/",
-    //     live: "/"
+        github: "https://github.com/aminulds/imdbmovie",
+        live: "https://imdbtrendingmovie.netlify.app"
+    },
+    {
+        img: "https://www.thethemely.com/images/product_feature_images/090223023853_63e4b11d511ab.png",
+        title: "Modern Nextjs Gym theme",
+        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <FaSass title="Sass" className='icon sass' /> }],
+
+        github: "https://github.com/aminulds/gymnextjs",
+        live: "https://dgym.vercel.app"
+    },
+
+    // {
+    //     img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
+    //     title: "IMDB Movie App",
+    //     technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
+
+    //     github: "https://github.com/aminulds/imdbmovie",
+    //     live: "https://imdbtrendingmovie.netlify.app"
     // },
+
 
 
 ].reverse();
