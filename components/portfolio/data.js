@@ -115,6 +115,14 @@ export const portfolioData = [
         github: "https://github.com/aminulds/gymnextjs",
         live: "https://dgym.vercel.app"
     },
+    {
+        img: "https://i.ibb.co/GFFTpVZ/dashboard-frontend-y82n-onrender-dashboard-2023-02-19-21-06-20.png",
+        title: "Mearn Admin Dashboard",
+        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
+
+        github: "https://github.com/aminulds/mearnadmindashboard",
+        live: "https://dashboard-frontend-y82n.onrender.com"
+    },
 
     // {
     //     img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
