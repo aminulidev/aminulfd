@@ -1,12 +1,13 @@
 import React from 'react';
-import { FaClock, FaBriefcase } from 'react-icons/fa';
+import { FaClock } from 'react-icons/fa';
+import { MdWork, MdWorkOff } from 'react-icons/md';
 
-const ExperienceItem = ({ designation, company, duration }) => {
+const ExperienceItem = ({ designation, company, duration, isExpire }) => {
     return (
         <div className="col">
             <div className="item">
                 <span className='icon'>
-                    <FaBriefcase />
+                    {isExpire === true ? <MdWorkOff /> : <MdWork />}
                 </span>
                 <h5 className="title">{designation}</h5>
                 <div className="description">

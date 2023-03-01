@@ -1,5 +1,5 @@
 import './ExperienceItem';
-import {experienceData} from './data';
+import { experienceData } from './data';
 import ExperienceItem from './ExperienceItem';
 
 export default function Experience() {
@@ -14,7 +14,7 @@ export default function Experience() {
 
                     {
                         experienceData.map((data) => {
-                            return <ExperienceItem key={data.id} designation={data.designation} company={data.company} duration={data.duration} />
+                            return <ExperienceItem key={data.id} designation={data.designation} company={data.company} duration={data.duration} isExpire={data.isExpire} />
                         })
                     }
 

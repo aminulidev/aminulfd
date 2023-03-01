@@ -29,7 +29,8 @@ export const experienceData = [
         duration: `${test(
             new Date(2022, 1, 1),
             new Date(2022, 3, 31)
-        ) + ' Months'}`
+        ) + ' Months'}`,
+        isExpire: true
     },
 
     {
@@ -39,6 +40,7 @@ export const experienceData = [
         duration: `${test(
             new Date(2022, 3, 31),
             new Date(today)
-        ) + 2 + ' Months'}`
+        ) + 2 + ' Months'}`,
+        isExpire: false
     }
 ].reverse();
