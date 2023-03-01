@@ -27,8 +27,8 @@ export const experienceData = [
         designation: "Frontend Developer (Intern)",
         company: "Desktop IT",
         duration: `${test(
-            new Date(2022, 1, 1), 
-            new Date(2022, 3, 31)  
+            new Date(2022, 1, 1),
+            new Date(2022, 3, 31)
         ) + ' Months'}`
     },
 
@@ -38,7 +38,7 @@ export const experienceData = [
         company: "Desktop IT",
         duration: `${test(
             new Date(2022, 3, 31),
-            new Date(today) 
+            new Date(today)
         ) + 2 + ' Months'}`
     }
-]
+].reverse();
