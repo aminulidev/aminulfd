@@ -1,7 +1,7 @@
 // Icon
 import { FaHtml5, FaSass, FaBootstrap, FaReact, FaChartArea } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase } from 'react-icons/si';
+import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase, SiMongodb } from 'react-icons/si';
 import { TbApi, TbBrandNextjs } from 'react-icons/tb';
 
 export const portfolioData = [
@@ -59,7 +59,7 @@ export const portfolioData = [
         live: "https://desktopit.net"
     },
     {
-        img: "https://www.thethemely.com/images/product_feature_images/221222104015_63a3dfaf1dd5d.png",
+        img: "https://www.thethemely.com/images/product_feature_images/150123023813_63c3bb75a2df1.png",
         title: "E-commerce HTML template",
         technology: [{ icon: <FaHtml5 title='HTML' className='icon html5' /> }, { icon: <FaSass title="Sass" className='icon sass' /> }, { icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
 
@@ -118,7 +118,7 @@ export const portfolioData = [
     {
         img: "https://i.ibb.co/GFFTpVZ/dashboard-frontend-y82n-onrender-dashboard-2023-02-19-21-06-20.png",
         title: "Mearn Admin Dashboard",
-        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
+        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <SiRedux title='Redux' className='icon redux' /> }, { index: 3, icon: <SiMongodb title='Mongodb' className='icon mongodb' /> }, { index: 4, icon: <SiMaterialui title="MUI" className='icon mui' /> }],
 
         github: "https://github.com/aminulds/mearnadmindashboard",
         live: "https://dashboard-frontend-y82n.onrender.com"
