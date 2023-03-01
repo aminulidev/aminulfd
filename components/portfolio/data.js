@@ -1,8 +1,8 @@
 // Icon
 import { FaHtml5, FaSass, FaBootstrap, FaReact, FaChartArea } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase, SiMongodb } from 'react-icons/si';
-import { TbApi, TbBrandNextjs } from 'react-icons/tb';
+import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase, SiMongodb, SiNextdotjs } from 'react-icons/si';
+import { TbApi } from 'react-icons/tb';
 
 export const portfolioData = [
     {
@@ -102,7 +102,7 @@ export const portfolioData = [
     {
         img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
         title: "IMDB Movie App",
-        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
+        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <SiNextdotjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
 
         github: "https://github.com/aminulds/imdbmovie",
         live: "https://imdbtrendingmovie.netlify.app"
@@ -110,7 +110,7 @@ export const portfolioData = [
     {
         img: "https://www.thethemely.com/images/product_feature_images/090223023853_63e4b11d511ab.png",
         title: "Modern Nextjs Gym theme",
-        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <FaSass title="Sass" className='icon sass' /> }],
+        technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <SiNextdotjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <FaSass title="Sass" className='icon sass' /> }],
 
         github: "https://github.com/aminulds/gymnextjs",
         live: "https://dgym.vercel.app"
@@ -127,7 +127,7 @@ export const portfolioData = [
     // {
     //     img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
     //     title: "IMDB Movie App",
-    //     technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
+    //     technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <SiNextdotjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }],
 
     //     github: "https://github.com/aminulds/imdbmovie",
     //     live: "https://imdbtrendingmovie.netlify.app"
