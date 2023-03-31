@@ -67,6 +67,14 @@ export const portfolioData = [
         live: "https://desktopit.net/templates/dcom"
     },
     {
+        img: "https://i.ibb.co/BB6QstP/shortly.png",
+        title: "Shortly Tailwind Landing Page",
+        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }, { index: 3, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+
+        github: "https://github.com/aminulds/shortly",
+        live: "https://aminulds.github.io/shortly"
+    },
+    {
         img: "https://i.ibb.co/BLV8GXd/reactmovieapp.jpg",
         title: "React Movie App",
         technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <SiSwiper title="Swiper" className='icon swiper_icon' /> }, { index: 4, icon: <TbApi title="API" className='icon api' /> }],
@@ -123,6 +131,7 @@ export const portfolioData = [
         github: "https://github.com/aminulds/mearnadmindashboard",
         live: "https://dashboard-frontend-y82n.onrender.com"
     },
+
 
     // {
     //     img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
