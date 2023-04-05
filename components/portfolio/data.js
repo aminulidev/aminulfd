@@ -75,6 +75,14 @@ export const portfolioData = [
         live: "https://aminulds.github.io/shortly"
     },
     {
+        img: "https://i.ibb.co/Vmkz0Dm/tailwind-dashboard-public-2023-04-05-20-14-30.png",
+        title: "Tailwiind Dashboard",
+        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <SiTailwindcss title="Tailwindcss" className='icon tailwindcss' /> }, { index: 3, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+
+        github: "https://github.com/aminulds/tailwind-dashboard",
+        live: "https://aminulds.github.io/tailwind-dashboard/public/"
+    },
+    {
         img: "https://i.ibb.co/BLV8GXd/reactmovieapp.jpg",
         title: "React Movie App",
         technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <SiSwiper title="Swiper" className='icon swiper_icon' /> }, { index: 4, icon: <TbApi title="API" className='icon api' /> }],
