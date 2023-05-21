@@ -5,43 +5,43 @@ import { SiMaterialui, SiSwiper, SiTailwindcss, SiRedux, SiFirebase, SiMongodb, 
 import { TbApi } from 'react-icons/tb';
 
 export const portfolioData = [
-    {
-        img: "https://www.thethemely.com/images/product_feature_images/081122053329_636a3e89ee7ec.jpg",
-        title: "Construction Website Template",
-        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
-        github: "/",
-        live: "https://www.thethemely.com/item/deskro-construction-html-website-template/40"
-    },
-    {
-        img: "https://www.thethemely.com/images/product_feature_images/070822062021_62efae05d8a8f.jpg",
-        title: "Travel Agency Landing Page",
-        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
-        github: "/",
-        live: "https://www.thethemely.com/item/triphub-tour-and-travel-agency-html-landing-page/34"
-    },
-    {
-        img: "https://www.thethemely.com/images/product_feature_images/020822045058_62e90192c9063.jpg",
-        title: "SAAS Website Template",
-        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
-        github: "/",
-        live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
-    },
-    {
-        img: "https://www.thethemely.com/images/product_feature_images/250122111808_61ef8810078cd.jpg",
-        title: "E-Commerce HTML Template",
-        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+    // {
+    //     img: "https://www.thethemely.com/images/product_feature_images/081122053329_636a3e89ee7ec.jpg",
+    //     title: "Construction Website Template",
+    //     technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+    //     github: "/",
+    //     live: "https://www.thethemely.com/item/deskro-construction-html-website-template/40"
+    // },
+    // {
+    //     img: "https://www.thethemely.com/images/product_feature_images/070822062021_62efae05d8a8f.jpg",
+    //     title: "Travel Agency Landing Page",
+    //     technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+    //     github: "/",
+    //     live: "https://www.thethemely.com/item/triphub-tour-and-travel-agency-html-landing-page/34"
+    // },
+    // {
+    //     img: "https://www.thethemely.com/images/product_feature_images/020822045058_62e90192c9063.jpg",
+    //     title: "SAAS Website Template",
+    //     technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+    //     github: "/",
+    //     live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
+    // },
+    // {
+    //     img: "https://i.ibb.co/YdLh1zG/E-commerce-HTML-template.webp",
+    //     title: "E-Commerce HTML Template",
+    //     technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
 
-        github: "/",
-        live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
-    },
-    {
-        img: "https://www.thethemely.com/images/product_feature_images/231122094758_637d97ee31bc3.jpg",
-        title: "ISP HTML Template",
-        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+    //     github: "/",
+    //     live: "https://www.thethemely.com/item/saastemp-saas-software-website-template/35"
+    // },
+    // {
+    //     img: "https://i.ibb.co/98mGq3g/ISP-HTML-Template.webp",
+    //     title: "ISP HTML Template",
+    //     technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
 
-        github: "/",
-        live: "https://www.thethemely.com/item/disp-internet-service-provider-html-template/41"
-    },
+    //     github: "/",
+    //     live: "https://www.thethemely.com/item/disp-internet-service-provider-html-template/41"
+    // },
     {
         img: "https://i.ibb.co/dPx7Sxx/dsmsm.png",
         title: "Digital SMS System",
@@ -58,14 +58,14 @@ export const portfolioData = [
         github: "/",
         live: "https://desktopit.net"
     },
-    {
-        img: "https://www.thethemely.com/images/product_feature_images/150123023813_63c3bb75a2df1.png",
-        title: "E-commerce HTML template",
-        technology: [{ icon: <FaHtml5 title='HTML' className='icon html5' /> }, { icon: <FaSass title="Sass" className='icon sass' /> }, { icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+    // {
+    //     img: "https://www.thethemely.com/images/product_feature_images/150123023813_63c3bb75a2df1.png",
+    //     title: "E-commerce HTML template",
+    //     technology: [{ icon: <FaHtml5 title='HTML' className='icon html5' /> }, { icon: <FaSass title="Sass" className='icon sass' /> }, { icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
 
-        github: "/",
-        live: "https://desktopit.net/templates/dcom"
-    },
+    //     github: "/",
+    //     live: "https://desktopit.net/templates/dcom"
+    // },
     {
         img: "https://i.ibb.co/BB6QstP/shortly.png",
         title: "Shortly Tailwind Landing Page",
@@ -140,6 +140,14 @@ export const portfolioData = [
         live: "https://dashboard-frontend-y82n.onrender.com"
     },
 
+
+    {
+        img: "https://i.ibb.co/sQfgxTv/Portfolio-HTML-Template.png",
+        title: "Portfolio HTML Template",
+        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+        github: "https://github.com/aminulmhub/inbio",
+        live: "https://aminulmhub.github.io/inbio/"
+    },
 
     // {
     //     img: "https://i.ibb.co/mSkmgzK/imdbmovieapp.png",
