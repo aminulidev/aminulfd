@@ -124,7 +124,7 @@ export const portfolioData = [
         live: "https://imdbtrendingmovie.netlify.app"
     },
     {
-        img: "https://www.thethemely.com/images/product_feature_images/090223023853_63e4b11d511ab.png",
+        img: "https://i.ibb.co/tCTwBzD/090223023853-63e4b11d511ab.webp",
         title: "Modern Nextjs Gym theme",
         technology: [{ index: 1, icon: <FaReact title="React" className='icon react' /> }, { index: 2, icon: <TbBrandNextjs title='Nextjs' className='icon nextjs' /> }, { index: 3, icon: <FaSass title="Sass" className='icon sass' /> }],
 
@@ -162,6 +162,14 @@ export const portfolioData = [
 
         github: "https://github.com/aminulds/bookingapp/tree/main",
         live: "https://airbnb247.netlify.app"
+    },
+
+    {
+        img: "https://i.ibb.co/jh4FsVg/real-mate-finder.png",
+        title: "Mate Finder Website",
+        technology: [{ index: 1, icon: <FaHtml5 title='HTML' className='icon html5' /> }, { index: 2, icon: <FaSass title="Sass" className='icon sass' /> }, { index: 3, icon: <FaBootstrap title="Bootstrap" className='icon bootstrap' /> }, { index: 4, icon: <IoLogoJavascript title="Javascript" className='icon js' /> }],
+        github: "https://github.com/aminulds/realmat",
+        live: "https://aminulds.github.io/realmat/"
     },
 
     // {
