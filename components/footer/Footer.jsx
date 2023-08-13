@@ -19,9 +19,9 @@ export default function Footer() {
                     <Link href="https://www.linkedin.com/in/aminulds">
                         <a className="icon linkedin" target="_blank"><FaLinkedin /></a>
                     </Link>
-                    <Link href="https://twitter.com/aminulds" >
+                    {/* <Link href="https://twitter.com/aminulds" >
                         <a className="icon twitter" target="_blank"><FaTwitter /></a>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </footer>
